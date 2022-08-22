@@ -1,0 +1,25 @@
+{
+  "name": "assignment-4-machine-learning",
+  "version": "1.0.0",
+  "description": "Assignment 4, machine learning, for course 2dv515, Web Intelligence",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:2dv515/student/am223rj/assignment-4.git"
+  },
+  "author": "Anna Malmgren",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.14.2",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.6"
+  }
+}

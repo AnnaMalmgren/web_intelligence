@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API for clustering, assignment 2 for course web intelligence. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.lnu.se/2dv515/student/am223rj/assignment-2"
+  },
+  "author": "Anna Malmgren",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "lodash": "^4.17.20",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}

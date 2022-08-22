@@ -1,0 +1,14 @@
+.accordion_content {
+  text-align: left !important;
+  align-items: baseline !important;
+}
+
+.item.accordion_item {
+  border-bottom: 1px solid #ccc !important;
+  padding: 0.5em !important;
+  margin-left: 2em !important;
+}
+
+.accordion_title {
+  text-align: start !important;
+}

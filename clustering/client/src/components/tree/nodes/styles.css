@@ -1,0 +1,41 @@
+.hide {
+  display: none !important;
+}
+
+.ui.list,
+.show .ui.list {
+  margin: 0px 0 !important;
+  list-style-type: none !important;
+  list-style-position: inside;
+  position: relative !important;
+  padding: 0.75em 0.25em 0px 0.25em !important;
+  max-width: 95% !important;
+}
+
+.show .ui.list::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0.3em !important;
+  width: 1px !important;
+  height: 100% !important;
+  right: auto !important;
+  left: -3.6em !important;
+  border-left: 1px dotted #ccc !important;
+}
+
+.show .ui.list::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 1.5em !important;
+  width: 3.8em !important;
+  height: 2em !important;
+  right: auto !important;
+  left: -3.6em !important;
+  border-top: 1px dotted #ccc !important;
+}
+
+/*Remove connectors after last child*/
+.show .ui.list:last-child::before {
+  top: -0.85em !important;
+  height: 2.5em !important;
+}
